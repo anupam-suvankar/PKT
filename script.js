@@ -22,7 +22,8 @@ let questions;
     }
   }
   
-  const serverUrl = 'http://localhost:8000';  // Adjust the port if needed
+  const githubUrl = 'https://raw.githubusercontent.com/your_username/your_repository/master/questions.json'; // Replace with your GitHub URL
+
   
   fetch(`${serverUrl}/questions.json`)
     .then(response => response.json())
