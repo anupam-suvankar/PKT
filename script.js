@@ -22,7 +22,7 @@ let questions;
     }
   }
   
-  const githubUrl = 'https://raw.githubusercontent.com/your_username/your_repository/master/questions.json'; // Replace with your GitHub URL
+  const githubUrl = 'questions.json';
 
   
   fetch(`${serverUrl}/questions.json`)
