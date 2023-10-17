@@ -22,7 +22,7 @@ let questions;
     }
   }
   
-  const githubUrl = 'questions.json';
+  const githubUrl = 'https://github.com/anupam-suvankar/PKT/blob/main/questions.json';
 
   
   fetch(`${serverUrl}/questions.json`)
